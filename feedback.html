@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kevin Arthur's Final Project Feedback</title>
+    <link href="layout.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="form.css">
+    <link href="mystyles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+   <header>
+        <img src="kinkvygamingheaven.png" width="260"height="200" alt="kinkvy gaming heaven" />
+    </header>
+    
+    <div id="main">
+
+    <p>We welcome your thoughts! Please feel free to fill out our form below and send us your feedback. </p>
+    <form action="response.html" method="get">
+        <fieldset id="feedbacKinfo">
+            <legend> Your feedback is regarding:</legend>
+            <p><label for="comments">Comments: </label><textarea rows="3" cols="40" name="comments" id="comments" required="required"></textarea></p>
+            <p><label for="re">Your feedback is regrading: </label>
+                <select name="re" id="re">
+                    <option value="Index">Choose above:</option>
+                    <option value="resume">resume</option>
+                    <option value="favorite link">favlinks</option>
+                    <option value="other">other</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset id="contact info">
+            <legend>Contact Info</legend>
+            <p><label for="name">Name: </label> <input type="text" name="name" id="name"></p>
+            <p>How can I contact you? (check all that apply)<br>
+                <input type="text" name="name" id="name"><label for="call">Call? </label><input type="checkbox" name="call" id="call"><label for="text">Text? </label> <input type="checkbox" name="text" id="text">
+            </p>
+            <p><label for="email">Email?</label><input type="checkbox" name="email" id="email"></p>
+            <p><label for="phonenum">Phone: </label><input type="tel" name="phonenum" id="phonenum" pattern="\d{3} {/-}
+                \d{3} {\-}\d{4}" placeholder="Use xxx-xxx-xxxx"></p>
+            <p> <label for="emailaddy">Email: </label><input type="email" name="emailaddy" id="eamiladdy"></p>
+        </fieldset>
+        <p><input type="submit" value="Send feedback"></p>
+
+    </form>
+
+
+
+    <footer>Copyright "My Website ", all rights reserved.<br />Web site design by Kevin Arthur</footer>
+</body>
+
+</html>
+
+
+ 
